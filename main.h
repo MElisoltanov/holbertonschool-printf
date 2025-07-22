@@ -21,4 +21,4 @@ typedef struct func_type
 
 } func_t;
 
-#endif /* MAIN_H */
+#endif
