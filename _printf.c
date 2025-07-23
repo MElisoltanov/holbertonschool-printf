@@ -66,7 +66,7 @@ int _printf(const char *format, ...)
 			count++;
 		}
 
-		else 
+		else
 		{
 			_putchar(format[i]);
 			count++;
