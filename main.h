@@ -19,4 +19,11 @@ typedef struct func_type
     int (*f)(va_list);
 } func_t;
 
-#endif /* MAIN_H */
+typedef struct func_type
+{
+    char *t;
+    int (*f)(va_list);
+
+} func_t;
+
+#endif

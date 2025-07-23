@@ -1,5 +1,9 @@
 #include "main.h"
 #include <stdarg.h>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2bb295d8764bbf0b90184ecd36aadf7842310d85
 /**
  * print_string - Prints a string
  * @args: Argument list containing the string to print
@@ -7,6 +11,7 @@
  */
 int print_string(va_list args)
 {
+<<<<<<< HEAD
     /* Étape 1 : Récupérer la chaîne depuis la liste d’arguments */
     char *s = va_arg(args, char *);
     int i;
@@ -44,3 +49,23 @@ int print_string(va_list args)
     }
     */
 }
+=======
+	char *s = va_arg(args, char *);
+	
+	int i;
+	int count = 0;
+
+	if (s == NULL)
+	{
+		s = "(null)";
+	}
+
+	for (i = 0; s[i] != '\0'; i++)
+	{
+		_putchar(s[i]);
+		count++;
+	}
+
+	return (count);
+}
+>>>>>>> 2bb295d8764bbf0b90184ecd36aadf7842310d85
