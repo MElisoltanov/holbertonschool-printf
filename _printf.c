@@ -14,6 +14,11 @@ int handle_specifier(const char *format, va_list args, int *i)
 {
 	int (*func_ptr)(va_list);
 
+	if (format[*i + 1] == '\0')
+	{
+		return (-1);
+	}
+
 	if (format[*i + 1] == 'c')
 	{
 		func_ptr = print_char;
