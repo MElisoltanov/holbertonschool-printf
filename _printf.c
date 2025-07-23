@@ -38,7 +38,8 @@ int handle_specifier(const char *format, va_list args, int *i)
 
 	else
 	{
-		return (0);
+		_putchar(format[*i]);
+		(*i)++;
 	}
 
 	(*i)++;
