@@ -46,6 +46,6 @@ Output:   Character:[H] ``
 This project is licensed under the Holberton School Software Engineering Program.
 ## <span id="authors">Authors</span>
 **Daniel Ramirez**
-Holberton School, Cohort 26.
+Holberton School, Cohort 27.
 **Moussa Elisoltanov**
-Holberton School, Cohort 26.
+Holberton School, Cohort 27.
