@@ -9,15 +9,15 @@
 
 int print_digits(unsigned int n)
 {
-    int count = 0;
+	int count = 0;
 
-    if (n / 10)
-        count += print_digits(n / 10);
+	if (n / 10)
+		count += print_digits(n / 10);
 
-    _putchar((n % 10) + '0');
-    count++;
+	_putchar((n % 10) + '0');
+	count++;
 
-    return (count);
+	return (count);
 }
 
 /**
@@ -32,8 +32,8 @@ int print_number(va_list args)
 	unsigned int count = 0;
 	unsigned int n;
 
-	num =(va_arg(args, int));
-	
+	num = (va_arg(args, int));
+
 	if (num < 0)
 	{
 		_putchar('-');
@@ -42,11 +42,11 @@ int print_number(va_list args)
 	}
 
 	else
-    {
-        n = num;
-    }
+	{
+		n = num;
+	}
 
-    count += print_digits(n);
+	count += print_digits(n);
 
 	return (count);
 }
