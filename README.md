@@ -15,7 +15,7 @@ i: integer to be provided for printing
 
 c: character to be provided for printing
 
-s: ...The const char * argument is expected to be a pointer to an array of character type (pointer to a string).
+s: The const char * argument is expected to be a pointer to an array of character type (pointer to a string).
 
 %: A per cent sign '%' is written. No argument is converted.
 
@@ -77,10 +77,10 @@ This project is licensed under the Holberton School Software Engineering Program
 
 ## <span id="authors">Authors</span>
 
-**Daniel Ramirez**
+**Daniel Ramirez**.
  
 Holberton School, Cohort 26.
 
-**Moussa Elisoltanov**
+**Moussa Elisoltanov**.
  
 Holberton School, Cohort 26.
