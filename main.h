@@ -13,5 +13,10 @@ int print_char(va_list args);
 int print_string(va_list args);
 int print_number(va_list args);
 int _putchar(char c);
+typedef struct func_type
+{
+    char *t;
+    int (*f)(va_list);
+} func_t;
 
 #endif /* MAIN_H */

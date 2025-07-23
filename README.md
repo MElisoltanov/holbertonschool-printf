@@ -53,7 +53,6 @@ git clone <https://github.com/MElisoltanov/holbertonschool-printf.git>
 
 2. Open the repository you've just cloned.
 
-3. Remaining installation instructions.
 
 
 ##  <span id="Usage">Usage</span>
@@ -84,3 +83,4 @@ Holberton School, Cohort 26.
 **Moussa Elisoltanov**
  
 Holberton School, Cohort 26.
+
