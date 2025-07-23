@@ -1,0 +1,23 @@
+.TH sman_3_printf "July.TH  23, 2025"
+.SH NAME
+.B _printf
+- a implementation of printf function using putchar function.
+.SH SYNOPSIS
+.B printf
+.SH DESCRIPTION
+.SH SPECIFIERS
+We handle the conversion specifiers:
+.br
+.B %c
+- Prints a character. The int argument is converted to an unsigned char.
+.br
+.B %s
+- Prints a string. The const char * argument is a pointer to an array of character type (pointer to a string).  Characters  from the  array are written up to (but not including) a terminating null byte ('\0').
+.br
+.B %d
+- Prints a number in decimal. The  int  argument is converted to signed decimal notation.
+.br
+.B %i
+- Prints a number as integer.
+.SH AUTHOR
+Moussa Elisoltanov / Daniel Ramirez
