@@ -45,6 +45,7 @@ int handle_specifier(const char *format, va_list args, int *i)
 	{
 		_putchar(format[*i]);
 		(*i)++;
+		return (1);
 	}
 
 	(*i)++;
