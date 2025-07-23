@@ -79,8 +79,8 @@ This project is licensed under the Holberton School Software Engineering Program
 
 **Daniel Ramirez**
  
-Holberton School, Cohort 26
+Holberton School, Cohort 26.
 
 **Moussa Elisoltanov**
  
-Holberton School, Cohort 26
+Holberton School, Cohort 26.
