@@ -1,3 +1,4 @@
+
 #ifndef MAIN_H
 #define MAIN_H
 
@@ -14,11 +15,16 @@ int print_string(va_list args);
 int print_number(va_list args);
 int _putchar(char c);
 
+/**
+ * struct func_type - Struct to associate format specifiers with functions
+ * @t: Format specifier (e.g., "c", "s", "d")
+ * @f: Pointer to the corresponding handler function
+ */
+
 typedef struct func_type
 {
-    char *t;
-    int (*f)(va_list);
-
+	char *t;
+	int (*f)(va_list);
 } func_t;
 
-#endif
+#endif /* MAIN_H */
