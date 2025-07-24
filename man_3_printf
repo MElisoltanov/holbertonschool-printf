@@ -1,23 +1,25 @@
-.TH sman_3_printf "July.TH  23, 2025"
-.SH NAME
-.B _printf
-- a implementation of printf function using putchar function.
 .SH SYNOPSIS
-.B printf
+.br
+#include 'main.h'.
+.br
+_printf(const char *format, ...).
 .SH DESCRIPTION
+Function produces output according to a format. We handle the conversion specifiers described in SPECIFIERS.
 .SH SPECIFIERS
 We handle the conversion specifiers:
 .br
 .B %c
-- Prints a character. The int argument is converted to an unsigned char.
+- Prints a character. int argument converted to an unsigned char.
 .br
 .B %s
-- Prints a string. The const char * argument is a pointer to an array of character type (pointer to a string).  Characters  from the  array are written up to (but not including) a terminating null byte ('\0').
+- Prints a string.The const char * argument is a pointer to an array of character type (pointer to a string).
 .br
 .B %d
 - Prints a number in decimal. The  int  argument is converted to signed decimal notation.
 .br
 .B %i
 - Prints a number as integer.
+.SH RETURN VALUE
+The number of characters printed (excluding tha null byte used to end output to strings). Write output to stdout, the standart output stream.
 .SH AUTHOR
-Moussa Elisoltanov / Daniel Ramirez
+Moussa Elisoltanov / Daniel Ramirez.
