@@ -15,7 +15,6 @@ int print_string(va_list args);
 int print_number(va_list args);
 int _putchar(char c);
 int handle_specifier(const char *format, va_list args, int *i);
-int (*get_print_func(char specifier))(va_list);
 
 /**
  * struct func_type - Struct to associate format specifiers with functions
