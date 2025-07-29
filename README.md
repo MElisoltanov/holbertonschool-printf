@@ -28,7 +28,6 @@ Return the number of characters printed.
 | :-----------------: | ------------------------------------------------- |
 | `_printf.c`       | Produces output according to a format.|
 | `_putchar.c`   |   writes the character c to stdout.|
-| `get_function.c`     | Selects the correct function to handle a format specifier.|
 | `main.h`     | Have the Prototypes used for the code.                        |
 | `write_char.c`     | Prints a single character. |
 | `write_number.c`     | Prints digits of a number recursively.|
