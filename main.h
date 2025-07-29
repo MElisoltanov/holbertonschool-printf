@@ -16,16 +16,4 @@ int print_number(va_list args);
 int _putchar(char c);
 int handle_specifier(const char *format, va_list args, int *i);
 
-/**
- * struct func_type - Struct to associate format specifiers with functions
- * @t: Format specifier (e.g., "c", "s", "d")
- * @f: Pointer to the corresponding handler function
- */
-
-typedef struct func_type
-{
-	char *t;
-	int (*f)(va_list);
-} func_t;
-
 #endif /* MAIN_H */
